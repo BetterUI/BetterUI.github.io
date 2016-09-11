@@ -8,18 +8,17 @@ title: Buttons
 	</p>
 
 	<h2 class="c-heading c-heading--medium">Basic Button</h2>
-	<p class="c-paragraph">To make a button a Blaze button add the <code class="c-code">.c-button</code> class to buttons, inputs or links.</p>
+	<p class="c-paragraph">To make a button a Blaze button add the <code class="c-code"><Button>Button</Button>
+</code></p>
 	<div class="o-grid o-grid--small-full">
 		<div class="o-grid__cell o-grid__cell--width-50 u-letter-box--small">
 			<button type="button" class="c-button">Button</button>
-			<input type="button" class="c-button" value="Input">
 			<a class="c-button">Link</a>
 			<button type="button" class="c-button" disabled>Button</button>
 		</div>
-		<div class="o-grid__cell o-grid__cell--width-50 u-letter-box--small"><pre class="c-pre html"><code class="c-code c-code--multiline">&lt;button class="c-button">Button&lt;/button>
-&lt;input type="button" class="c-button" value="Input">
-&lt;a class="c-button">Link&lt;/a>
-&lt;button class="c-button">Button&lt;/button></code></pre></div>
+		<div class="o-grid__cell o-grid__cell--width-50 u-letter-box--small"><pre class="c-pre html"><code class="c-code c-code--multiline">&lt;Button href="#">Link&lt;/Button>
+&lt;Button href="#">Link&lt;/Button>
+&lt;Button href="#" disabled>Button&lt;/Button></code></pre></div>
 	</div>
 
 	<h2 id="colours" class="c-heading c-heading--medium">Button Colours</h2>
@@ -35,10 +34,11 @@ title: Buttons
 			<button type="button" class="c-button c-button--success">Button</button>
 			<button type="button" class="c-button c-button--error">Button</button>
 		</div>
-		<div class="o-grid__cell o-grid__cell--width-50 u-letter-box--small"><pre class="c-pre html"><code class="c-code c-code--multiline">&lt;button class="c-button">Button&lt;/button>
-&lt;button class="c-button c-button--primary">Button&lt;/button>
-&lt;button class="c-button c-button--success">Button&lt;/button>
-&lt;button class="c-button c-button--error">Button&lt;/button></code></pre></div>
+		<div class="o-grid__cell o-grid__cell--width-50 u-letter-box--small"><pre class="c-pre html"><code class="c-code c-code--multiline">&lt;Button>Button&lt;/Button>
+&lt;Button primary>Button&lt;/Button>
+&lt;Button secondary>Button&lt;/Button>
+&lt;Button success>Button&lt;/Button>
+&lt;Button error>Button&lt;/Button></code></pre></div>
 	</div>
 
 	<h2 id="groups" class="c-heading c-heading--medium">Button Groups</h2>
@@ -53,10 +53,10 @@ title: Buttons
 				<button type="button" class="c-button c-button--secondary">Button</button>
 			</span>
 		</div>
-		<div class="o-grid__cell o-grid__cell--width-50 u-letter-box--small"><pre class="c-pre html"><code class="c-code c-code--multiline">&lt;span class="c-button-group">
-  &lt;button class="c-button c-button--primary">Button&lt;/button>
-  &lt;button class="c-button c-button--secondary">Button&lt;/button>
-&lt;/span></code></pre></div>
+		<div class="o-grid__cell o-grid__cell--width-50 u-letter-box--small"><pre class="c-pre html"><code class="c-code c-code--multiline">&lt;ButtonGroup>
+  &lt;Button primary>Button&lt;/Button>
+  &lt;Button secondary>Button&lt;/Button>
+&lt;/ButtonGroup></code></pre></div>
 	</div>
 
 	<p class="c-paragraph">
