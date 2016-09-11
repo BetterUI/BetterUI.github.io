@@ -15,7 +15,8 @@ title: Bubbles
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit
 		</p>
 	</div>
-	<div class="o-grid__cell o-grid__cell--width-50 u-letter-box--small"><pre class="c-pre html"><code class="c-code c-code--multiline">&lt;div class="c-bubble c-bubble--top">This bubble is on the top&lt;/div></code></pre></div>
+	<div class="o-grid__cell o-grid__cell--width-50 u-letter-box--small"><pre class="c-pre html"><code class="c-code c-code--multiline">&lt;Bubble position="up slow">Up&lt;/Bubble>
+</code></pre></div>
 </div>
 
 <h3 id="positions" class="c-heading c-heading--medium">Positions</h3>
@@ -24,13 +25,13 @@ title: Bubbles
 	attributes but that seemed too opinionated.
 </p>
 <p class="c-paragraph">
-	<span class="c-bubble c-bubble--right c-text--mono">.c-bubble--right</span>
+	<span class="c-bubble c-bubble--right c-text--mono">position="right"</span>
 </p>
 <p class="c-paragraph">
-	<span class="c-bubble c-bubble--left c-text--mono">.c-bubble--left</span>
+	<span class="c-bubble c-bubble--left c-text--mono">position="left"</span>
 </p>
 <p class="c-paragraph">
-	<span class="c-bubble c-bubble--bottom c-text--mono">.c-bubble--bottom</span>
+	<span class="c-bubble c-bubble--bottom c-text--mono">position="down"</span>
 </p>
 
 <h2 id="animation" class="c-heading c-heading--medium">Animation</h2>
@@ -49,17 +50,17 @@ title: Bubbles
 	}
 </script>
 
-<h3 class="c-heading c-heading--small c-text--mono">.a-bubble</h3>
+<h3 class="c-heading c-heading--small c-text--mono">animate</h3>
 <p class="c-paragraph">
-	Apply the <code class="c-code">.a-bubble</code> class to enable animation on each bubble.
+	Apply the <code class="c-code">animate</code> to enable animation on each bubble.
 </p>
 
-<h3 class="c-heading c-heading--small"><span class="c-text--mono">--slow, --fast</span></h3>
+<h3 class="c-heading c-heading--small"><span class="c-text--mono">slow, fast</span></h3>
 <p class="c-paragraph">
 	Every animation comes with slow and fast modifiers.
 </p>
 
-<h3 class="c-heading c-heading--small c-text--mono">--top, --bottom, --left, --right</h3>
+<h3 class="c-heading c-heading--small c-text--mono">top, bottom, left, right</h3>
 <p class="c-paragraph">
 	Add one of these modifiers to change the origin of the animation. Default is from the center of the element.
 </p>
