@@ -33,28 +33,12 @@ title: Alerts
 			</div>
 		</div>
 	</div>
-	<div class="o-grid__cell o-grid__cell--width-50 u-letter-box--small"><pre class="c-pre html"><code class="c-code c-code--multiline">&lt;div class="c-alerts">
-  &lt;div class="c-alerts__alert">
-    &lt;button class="c-button c-button--close">&times;&lt;/button>
-    Default
-  &lt;/div>
-  &lt;div class="c-alerts__alert c-alerts__alert--primary">
-    &lt;button class="c-button c-button--close">&times;&lt;/button>
-    Primary
-  &lt;/div>
-  &lt;div class="c-alerts__alert c-alerts__alert--secondary">
-    &lt;button class="c-button c-button--close">&times;&lt;/button>
-    Secondary
-  &lt;/div>
-  &lt;div class="c-alerts__alert c-alerts__alert--success">
-    &lt;button class="c-button c-button--close">&times;&lt;/button>
-    Success
-  &lt;/div>
-  &lt;div class="c-alerts__alert c-alerts__alert--error">
-    &lt;button class="c-button c-button--close">&times;&lt;/button>
-    Error
-  &lt;/div>
-&lt;/div></code></pre></div>
+	<div class="o-grid__cell o-grid__cell--width-50 u-letter-box--small"><pre class="c-pre html"><code class="c-code c-code--multiline">&lt;Alert closable>Alert&lt;/Alert>
+&lt;Alert primary closable>Alert&lt;/Alert>
+&lt;Alert secondary closable>Alert&lt;/Alert>
+&lt;Alert success closable>Alert&lt;/Alert>
+&lt;Alert error closable>Alert&lt;/Alert>
+</code></pre></div>
 </div>
 
 <h2 id="animation" class="c-heading c-heading--medium">Animation</h2>
@@ -68,6 +52,9 @@ title: Alerts
 
 <button class="c-button c-button--ghost-secondary" type="button" onclick="demo()">Animate</button>
 
+<div class="o-grid__cell o-grid__cell--width-50 u-letter-box--small"><pre class="c-pre html"><code class="c-code c-code--multiline">&lt;Alert animation="slow" closable>Alert&lt;/Alert>
+</code></pre></div>
+
 <script>
 	function demo() {
 		document.getElementById('animate').classList.remove('a-alerts');
@@ -77,23 +64,12 @@ title: Alerts
 	}
 </script>
 
-<h3 class="c-heading c-heading--small c-text--mono">.a-alerts</h3>
-<p class="c-paragraph">
-	Apply the <code class="c-code">.a-alerts</code> class to enable animation on all alerts within the block.
-</p>
-
-<h3 class="c-heading c-heading--small c-text--mono">.a-alerts__alert</h3>
+<h3 class="c-heading c-heading--small c-text--mono">animaton</h3>
 <p class="c-paragraph">
 	Will turn on animation per alert.
 </p>
 
-<h3 class="c-heading c-heading--small"><span class="c-text--mono">--slow, --fast</span></h3>
+<h3 class="c-heading c-heading--small"><span class="c-text--mono">slow, fast</span></h3>
 <p class="c-paragraph">
 	Every animation comes with slow and fast modifiers.
-</p>
-
-<h3 class="c-heading c-heading--small c-text--mono">--top, --bottom, --left, --right</h3>
-<p class="c-paragraph">
-	Add one of these modifiers to change the origin of the animation. Top will make the animations appear to start from
-	the top of the alert and so on. Default is from the center of the element.
 </p>
