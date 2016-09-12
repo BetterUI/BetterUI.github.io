@@ -88,8 +88,8 @@ navigation-components:
 - text: Buttons
   url: /components/buttons/
 
-- text: Calendars
-  url: /components/calendars/
+# - text: Calendars
+#   url: /components/calendars/
 
 - text: Cards
   url: /components/cards/
