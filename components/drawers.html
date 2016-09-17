@@ -13,7 +13,7 @@ title: Drawers
 	<code class="c-code">overflow:hidden</code> or you'll see the drawer sliding around.
 </p>
 <p class="c-paragraph">
-	To make the drawer appear and disappear toggle the <code class="c-code">.drawer--visible</code> modifier.
+	To make the drawer appear and disappear toggle the <code class="c-code">visible</code> modifier.
 </p>
 <div class="o-grid o-grid--small-full">
 	<div class="o-grid__cell u-letter-box--small modal-demo">
@@ -31,31 +31,20 @@ title: Drawers
 			<div class="c-drawer__body">
 				Drawer body
 			</div>
-
-			<div class="c-drawer__footer c-drawer__footer--block">
-				<button class="c-button c-button--primary">Done</button>
-			</div>
 		</div>
 	</div>
-	<div class="o-grid__cell u-letter-box--small"><pre class="c-pre html"><code class="c-code c-code--multiline">&lt;div class="c-overlay">&lt;/div>
-&lt;div class="c-drawer c-drawer--bottom c-drawer--visible">
-  &lt;h4 class="c-heading c-heading--xsmall">Drawer header&lt;/h4>
-
-  &lt;ul class="c-menu">
-    &lt;li class="c-menu__item">Drawer c-menu&lt;/li>
-    &lt;li class="c-menu__item">Item two&lt;/li>
-    &lt;li class="c-menu__item">Item three&lt;/li>
-    &lt;li class="c-menu__item">Item four&lt;/li>
-  &lt;/ul>
-
-  &lt;div class="c-drawer__body">
+	<div class="o-grid__cell u-letter-box--small"><pre class="c-pre html"><code class="c-code c-code--multiline">&lt;Drawer>
+ &lt;Heading size="small">Drawer header&lt;/Heading>
+  &lt;Menu>
+    &lt;Menu.Item>Drawer c-menu&lt;/Menu.Item>
+    &lt;Menu.Item>Item two&lt;/Menu.Item>
+    &lt;Menu.Item>Item three&lt;/Menu.Item>
+    &lt;Menu.Item>Item four&lt;/Menu.Item>
+  &lt;/Menu>
+  &lt;Drawer.Body>
     Drawer body
-  &lt;/div>
-		
-  &lt;div class="c-drawer__footer c-drawer__footer--block">
-    &lt;button class="c-button c-button--primary">Done&lt;/button>
-  &lt;/div>
-&lt;/div></code></pre>
+  &lt;/Drawer.Body>
+&lt;/Drawer></code></pre>
 	</div>
 </div>
 
