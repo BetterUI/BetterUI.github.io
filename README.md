@@ -2,7 +2,35 @@
 
 React Binding of Open Source Modular CSS Framework BLaze - providing great structure for building websites quickly
 
-Working in progress....
+Documentation Working in progress.... 
+Welcome to contribute to this project, PR welcome!
+
+- [X] Addresses
+- [X] Alerts
+- [X] Badges
+- [X] Bubbles
+- [X] Buttons
+- [X] Cards
+- [ ] Drawers
+- [ ] Headings
+- [ ] Inputs
+- [ ] Lists
+- [ ] Menus
+- [ ] Modals
+- [ ] Navs
+- [ ] Overlays
+- [ ] Pagination
+- [ ] Ranges
+- [ ] Tables
+- [ ] Tabs
+- [ ] Tags
+- [ ] Toasts
+- [ ] Toggles
+- [ ] Tooltips
+- [ ] Trees
+- [ ] Typography
+
+
 
 <a href="https://www.npmjs.com/package/react-blaze"><img src="https://img.shields.io/npm/v/react-blaze.svg?style=flat-square"></a>
 <a href="https://www.npmjs.com/package/react-blaze"><img src="https://img.shields.io/npm/dm/react-blaze.svg?style=flat-square"></a>
